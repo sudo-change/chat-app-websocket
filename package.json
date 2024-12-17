@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "concurrently \"cd server && npm run dev\" \"cd client && npm run dev\"",
-    "build": "concurrently \"cd server && npm run build\" \"cd client && npm run build\"",
-    "start": "node dist/server/socket/index.js",
-    "deploy": "npm run build && npm run start"
+    "dev": "",
+    "build": "",
+    "start": "node ./server/socket/index.js",
+    "deploy": "npm run start"
   },
   "keywords": [],
   "author": "",
